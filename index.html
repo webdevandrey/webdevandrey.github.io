@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	  <!-- Важная техническая информация для браузера -->
 		<meta charset="utf-8">
@@ -7,20 +7,96 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<!-- Информация об Авторе и описание проекта -->
-		<meta name="description" content="">
-		<meta name="auyhor" content="">
+		<meta name="description" content="Сайт верстальщика Андрея Шевченко">
+		<meta name="auyhor" content="Андрей Шевченко">
 
 		<!-- Иконка, которая будет на вкладке в браузере -->
 		<link rel="icon" href="/favicon.ico">
 		<!-- Заголовок на вкладке в браузере -->
-		<title></title>
+		<title>Андрей Шевченко Создание сайтов</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
 
 		<!-- Подключаем наш файл со стилями, который находится в папке css-->
+		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
 		<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
  <!-- Тут будет модержимое будущего сайта -->
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-7"><img class="headerImg" src="img/Small.png" alt="Logo"></div>
+				<div class="col-lg-5">
+					<p class="headerSubTitle">
+						Веб-разработчик
+					</p>
+					<h1 class="headerTitle">
+						Андрей Шевченко
+					</h1>
+					<p class="header-subtitle">Верстка на HTML/CSS<br>Разработка сайтов под ключ</p>
+					<div class="headerButtonBlock">
+						<button class="headerButton">Связаться</button>
+					<small>*Это бесплатно</small>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</header>
 
+	<section class="portfolio">
+		<div class="container">
+			<div class="portfolioBlock">
+			<h2 class="portfolioTitle">Портфолио</h2>
+			<p class="portfolioSubTitle">Мои работы</p>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="portfolioCol1">
+							<img src="img/work-bg1.png" alt="Газпром">
+						<h3 class="titlePortfolio">внутренний университет «Газпром нефти»</h3>
+						<p class="DescPortfolio">У «Газпром нефти» есть внутренний Корпоративный университет для сотрудников. Это настоящий университет, где сотрудники проходят обучение у внутренних тренеров компании или у специально приглашенных лекторов и экспертов....</p>
+						<a href="#">Смотреть работу</a>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="portfolioCol2">
+							<img src="img/work-bg2.png" alt="МИР">
+						<h3 class="titlePortfolio">Сайт платежной системы «Мир»</h3>
+						<p class="DescPortfolio">Обновленная версия сайта знакомит посетителей с компаниями, уже принимающими карты к оплате, и приглашает всех остальных присоединиться к проекту...</p>
+						<a href="#">Смотреть работу</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h4 class="footerAvtor">Андрей Шевченко</h4>
+					<p class="footerText">Разработка сайтов под ключ</p>
+				</div>
+				<div class="col-md-4">
+					<div class="socialBlock">
+						<p>Подпишись:</p>
+						<a href="#"><img src="img/facebook-logo-button.png" alt="facebook"></a>
+						<a href="#"><img src="img/vk-social-logotype.png" alt="vk"></a>
+						<a href="#"><img src="img/telegram-symbol.png" alt="telegram"></a>
+						<a href="#"><img src="img/youtube-symbol.png" alt="youtube"></a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="footerCtaBlock">
+						<p class="footerCta">Напишите мне:</p>
+					<button class="footerBtn">Написать</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
 </body>
 </html>
